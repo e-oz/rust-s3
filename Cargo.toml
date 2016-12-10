@@ -1,6 +1,6 @@
 [package]
 name = "rust-s3"
-version = "0.2.4"
+version = "0.2.5"
 authors = ["Drazen Urch"]
 description = "Tiny Rust library for working with Amazon S3."
 repository = "https://github.com/durch/rust-s3"
@@ -14,7 +14,7 @@ name = "s3"
 path = "src/lib.rs"
 
 [dependencies]
-openssl = "0.7.14"
+openssl = "0.9"
 time = "0.1.35"
 curl = "0.3.0"
 rustc-serialize = "0.3.19"
